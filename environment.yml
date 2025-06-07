@@ -1,0 +1,13 @@
+name: mystat
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - conda-forge::r-base
+  - r-irkernel
+  - r-tidyverse
+  - conda-forge::pymongo
+  - conda-forge::python-dotenv
+prefix: /Volumes/NGS/conda/miniconda3/envs/mystat
