@@ -1,0 +1,52 @@
+# --- Conda environments ---
+# If you have local conda envs saved inside your project folder
+env/
+.conda/
+.conda_env/
+*.conda
+*.env.yml
+
+# If your conda environments are stored somewhere like ~/.conda/envs, those are outside repo scope
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Environment files ---
+.env
+.env.*
+*.env
+*.env.*
+
+# --- VS Code ---
+.vscode/
+
+
+
+# --- macOS system files ---
+.DS_Store
+
+# --- Logs and cache ---
+*.log
+*.tmp
+.cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- pip / virtualenv ---
+pip-selfcheck.json
+venv/
+venv.bak/
+*.venv
+
+# --- Misc ---
+*.sqlite3
+*.db
