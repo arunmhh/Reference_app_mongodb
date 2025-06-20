@@ -19,7 +19,7 @@ def list_paper():
     print("\n")
     print("*" * 60)
     for paper in paper_collection.find():
-        print(f"ID: {paper["_id"]}, Name: {paper["name"]} and author: {paper["author"]} in {paper["year"]}")
+        print(f"ID: {paper['_id']}, Name: {paper['name']} and author: {paper['author']} in {paper['year']}")
     print("\n")
     print("*" * 60)
 def update_paper(paper_id, new_name, new_author, new_year):
